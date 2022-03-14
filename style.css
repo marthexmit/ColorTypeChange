@@ -1,0 +1,114 @@
+h1 {
+    color: cadetblue;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+h2, h3, h4, p, span, label {
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 50px;
+    margin-bottom: 250px;
+}
+
+.backgroundImage {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    filter: brightness(.5);
+}
+
+.video {
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.normalize .outputs input {
+    width: 142px;
+}
+
+.div-inputs {
+    display: flex;
+}
+
+.inputs input {
+    border-radius: 5px;
+}
+
+.inputs h4 {
+    margin-right: 15px;
+}
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picker {
+    height: 22px !important;
+    width: 70px;
+}
+
+input {
+    width: 50px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.spacer {
+    margin: 20px 0;
+    background-color: darkgray;
+    width: 100%;
+    height: 2px;
+}
+
+.rgbToHsv .outputs h4 {
+    margin-right: 90px;
+}
+
+.rgbToHsv .outputs input {
+    width: 60px;
+}
+
+.rgbToCmyk .outputs h4 {
+    margin-right: 17px;
+}
+
+.hsvToRgb .outputs h4 {
+    margin-right: 110px;
+}
+
+.cmykToRgb .outputs h4 {
+    margin-right: 106px;
+}
+
+.rgbToGray .outputs h4 {
+    margin-right: 125px;
+}
+
+.rgbToGray .outputs input {
+    width: 100px;
+}
